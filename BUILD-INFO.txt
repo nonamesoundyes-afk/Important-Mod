@@ -1,0 +1,10 @@
+Important — Fabric 1.21.11
+
+No IDE is required to attempt a build.
+1. Install Java JDK 21 if needed: https://adoptium.net/temurin/releases/?version=21
+2. Double-click build.bat.
+3. The script uses installed Gradle, or downloads Gradle 8.14.3 automatically.
+4. Gradle then downloads Minecraft/Fabric dependencies, so internet access is required.
+5. If successful, the JAR is created in build\libs.
+
+This environment cannot verify the build because it has no network access to download Gradle and Fabric dependencies. The JAR has not been built or tested here.
